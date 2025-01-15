@@ -71,7 +71,9 @@ want to benefit from the latest features—showcased on the package
 website—you should install from R-Universe:
 
 ``` r
-install.packages("tinytable")
+install.packages("tinytable",
+    repos = c("https://vincentarelbundock.r-universe.dev", "https://cran.r-project.org")
+)
 ```
 
 Alternatively, you can install it from CRAN:
